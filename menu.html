@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fas fa-lemon me-3"></i>Bunderan Juice</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Beranda</a>
+                        <a href="about.html" class="nav-item nav-link">Tentang</a>
+                     
+                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                        <div class="nav-item dropdown">
+                           
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                   
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl menu-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h5 class="section-title ff-secondary fw-normal" style="color:#ff6600;">Menu</h5>
+            <h1 style="color:#ff6600; font-family:'Segoe UI', sans-serif; text-shadow:0 0 10px rgba(255,136,0,0.3);">Best Seller</h1>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Mangga Harum Manis -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/JUS MANGGA.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Mangga Harum Manis</span>
+                            <span style="color:#ff6600;">13k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Segarnya jus mangga pilihan dengan rasa manis alami</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jeruk Peras -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/JERUK.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Jeruk Peras</span>
+                            <span style="color:#ff6600;">12k,13k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Perasan jeruk murni yang asam manis dan menyegarkan</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alpukat -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/ALPUKAT.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Alpukat</span>
+                            <span style="color:#ff6600;">13k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Creamy alpukat segar yang lembut dan mengenyangkan</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jambu Merah -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/JAMBU.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Jambu Merah</span>
+                            <span style="color:#ff6600;">13k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Jus jambu merah segar dengan tekstur lembut dan rasa manis alami</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buah Naga -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/BUAH NAGA.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Buah Naga</span>
+                            <span style="color:#ff6600;">15k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Jus buah naga merah yang segar dan manis alami</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teh Tarik -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/TEH TARIK.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Teh Tarik</span>
+                            <span style="color:#ff6600;">7k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Teh susu tarik dengan rasa creamy dan harum</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GoodDay Cappuccino -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/G.CAP.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>GoodDay Cappuccino</span>
+                            <span style="color:#ff6600;">7k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Minuman cappuccino dingin dengan aroma kopi yang khas</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nutrisari & Pop Ice -->
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center menu-item-wrapper">
+                    <img class="flex-shrink-0 img-fluid rounded" src="img/POP ICE.jpeg" alt="" style="width: 80px;">
+                    <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2" style="color:#f5f5f5; font-family:'Segoe UI', sans-serif;">
+                            <span>Nutrisari & Pop Ice</span>
+                            <span style="color:#ff6600;">6k</span>
+                        </h5>
+                        <small class="fst-italic" style="color:#f5f5f5;">Segar dan menyegarkan</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+.menu-section {
+    background: #111; 
+    padding: 60px 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.menu-wrapper, .menu-item-wrapper {
+    background: #1a1a1a;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.3);
+    border: 1px solid rgba(255, 140, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.menu-item-wrapper:hover {
+    background: #ff6600;
+    color: #111;
+    transform: translateX(5px);
+}
+
+h1, h3 {
+    color: #ff6600;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 136, 0, 0.3);
+}
+</style>
+
+                        
+
+        <!-- Menu Section Start -->
+<style>
+    .menu-section {
+        background: #111; 
+        padding: 60px 0;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    .menu-wrapper {
+        background: #1a1a1a;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 0 30px rgba(255, 140, 0, 0.3);
+        border: 1px solid rgba(255, 140, 0, 0.3);
+    }
+
+    h1, h3 {
+        color: #ff6600;
+        font-weight: 700;
+        text-shadow: 0 0 10px rgba(255, 136, 0, 0.3);
+    }
+
+    .menu-item {
+        font-size: 18px;
+        color: #f5f5f5;
+        margin: 8px 0;
+        padding: 8px 15px;
+        background: #222;
+        border-left: 5px solid #ff6600;
+        border-radius: 8px;
+        transition: 0.3s ease;
+    }
+
+    .menu-item:hover {
+        background: #ff6600;
+        color: #111;
+        transform: translateX(5px);
+    }
+
+    
+    .section-title::before {
+        content: "";
+    }
+</style>
+
+<div class="container-xxl menu-section">
+    <div class="row g-0 justify-content-center">
+        <div class="col-12 col-md-8">
+            <div class="menu-wrapper text-center">
+                <h1 class="mb-4">Menu Kami</h1>
+
+                
+                <h3 class="mb-3 section-title">KOPI & SUSU</h3>
+                <ul class="list-unstyled mb-4">
+                    <li class="menu-item">Good Day Capp/Freeze - 7.000</li>
+                    <li class="menu-item">Drink Beng Beng - 7.000</li>
+                    <li class="menu-item">Teh Tarik - 7.000</li>
+                    <li class="menu-item">Chocolatos M/C - 7.000</li>
+                    <li class="menu-item">Dancow V/C - 8.000-10.000</li>
+                    <li class="menu-item">Zee V/C - 7.000</li>
+                    <li class="menu-item">Max Lemontea - 7.000</li>
+                    <li class="menu-item">Hilo / Milo - 7.000</li>
+                </ul>
+
+                
+                <h3 class="mb-3 section-title">MENU CAMPURAN</h3>
+                <ul class="list-unstyled mb-4">
+                    <li class="menu-item">Nutrisari & Popice - 6.000</li>
+                    <li class="menu-item">Josu (Extrajoss Susu) - 6.000</li>
+                    <li class="menu-item">Ice Lemon Tea - 10.000</li>
+                    <li class="menu-item">Teh Manis Dingin - 5.000</li>
+                    <li class="menu-item">Teh Manis Hangat - 4.000</li>
+                    <li class="menu-item">Teh Tawar Panas - 3.000</li>
+                    <li class="menu-item">Teh Tawar Dingin - 4.000</li>
+                </ul>
+
+                <!-- JUICE -->
+                <h3 class="mb-3 section-title">JUS</h3>
+                <ul class="list-unstyled mb-4">
+                    <li class="menu-item">Mangga Harum Manis - 13.000</li>
+                    <li class="menu-item">Jeruk Peras - 12.000-13.000</li>
+                    <li class="menu-item">Jambu Merah - 13.000</li>
+                    <li class="menu-item">Alpukat - 13.000</li>
+                    <li class="menu-item">Buah Naga - 13.000</li>
+                </ul>
+
+                <!-- TOPPING -->
+                <h3 class="mb-3 section-title">TOPPING</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="menu-item">Ceres - 1.000</li>
+                    <li class="menu-item">Oreo - 2.000</li>
+                    <li class="menu-item">Choco Chips - 2.000</li>
+                    <li class="menu-item"><em>*Topping berlaku untuk varian susu</em></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Section End -->
+
+<!-- CSS tambahan -->
+<style>
+.menu-item {
+    background-color: #f0f0f0; /* Warna item, bisa ganti sesuai selera */
+    color: #001f4d; /* teks navy */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', sans-serif; /* ganti font */
+    font-weight: 500;
+}
+.menu-item em {
+    font-style: italic;
+    color: #ff6600; /* oranye untuk catatan */
+}
+</style>
+
+
+<!-- CSS tambahan -->
+<style>
+.text-navy { color: #001f4d; } /* Navy */
+.text-orange { color: HD#ff6600; } /* Oranye */
+.bg-white { background-color: #ffffff; }
+</style>
+        <!-- Menu End -->
+        
+
+        <!-- Footer Start -->
+           <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl.Lombok no.45 Depan Tepian Rasa</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+6289521581312</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>BCA : 4490320216 atn Rizkia Edwina Effendy</p>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Senin-Minggu</h5>
+                        <p>09.00-19.00</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Bunderan Juice</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
